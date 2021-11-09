@@ -1,0 +1,45 @@
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.panelcontainer {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    display: flex;
+    margin-top: 350px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    transition: 1.5s ease;
+    opacity: 0;
+}
+
+#titleimg {
+    padding-right: 40px;
+}
+
+.panel {
+    border: 2px solid;
+    width: 700px;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    margin: 20px;
+    opacity: 0;
+    transition: 1s ease;
+}
